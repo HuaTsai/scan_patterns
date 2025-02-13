@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++20 -Wall -Iinclude
+CXXFLAGS = -std=c++20 -Wall -Iinclude -O0
 
 SRCDIR = src
 TARGET = main

@@ -8,6 +8,9 @@ int main() {
   bool error = true;
 
   if (error) {
+    if (!error) {
+      std::cout << "error" << std::endl;
+    }
 
   }
 
