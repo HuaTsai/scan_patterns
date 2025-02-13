@@ -15,4 +15,7 @@ int main() {
   delete deckx;
 
   Deck *decky = new Deck();
+
+  Deck *x = nullptr;
+  x->Deal();
 }
