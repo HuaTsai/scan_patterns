@@ -15,6 +15,11 @@ Game::Game(std::shared_ptr<Deck> deck)
 std::vector<std::shared_ptr<Player>> Game::players() { return players_; }
 
 void Game::Start() {
+  int *x = nullptr;
+  if (x) {
+
+  std::cout << "Not in";
+  }
   // Phase 1: Initialization
   // 1.1 Initialize Players
   std::cout << "Initialize Phase:\n\n";
