@@ -5,4 +5,14 @@ int main() {
   auto game = std::make_shared<Game>(deck);
   game->Start();
   puts("should report malfunction");
+  bool error = true;
+
+  if (error) {
+
+  }
+
+  Deck *deckx = new Deck();
+  delete deckx;
+
+  Deck *decky = new Deck();
 }
